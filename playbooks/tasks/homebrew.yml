@@ -1,0 +1,50 @@
+---
+- name: Tap Homebrew repositories
+  homebrew_tap: tap={{ item }} state=present
+  with_items:
+    - homebrew/binary
+    - homebrew/completions
+    - homebrew/dupes
+    - phinze/cask
+
+- name: Update and upgrade Homebrew
+  shell: brew update && brew upgrade && brew cleanup
+
+- name: Install libraries with Homebrew
+  homebrew: name={{ item }} state=latest
+  with_items:
+    - apache-spark
+    - awscli
+    - bash
+    - bash-completion
+    - brew-cask
+    - docker
+    - gist
+    - git
+    - go
+    - mariadb
+    - maven
+    - openssh
+    - packer
+    - phantomjs
+    - postgresql
+    - protobuf
+    - scala
+    - tree
+    - vagrant-completion
+    - vim
+    - wget
+
+- name: Install applications with Homebrew-cask
+  homebrew_cask: name={{ item }} state=installed
+  with_items:
+    - adium
+    - alfred
+    - dropbox
+    - evernote
+    - intellij-idea
+    - java
+    - macvim
+    - spotify
+    - vagrant
+    - virtualbox

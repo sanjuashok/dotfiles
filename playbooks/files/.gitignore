@@ -1,0 +1,16 @@
+*.un~
+.gradle
+.settings
+*.swp
+
+# intellij config files
+*.iml
+*.ipr
+*.iml
+*.iws
+
+# eclipse config files
+.classpath
+.project
+
+out
