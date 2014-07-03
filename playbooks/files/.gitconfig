@@ -13,6 +13,7 @@
 	branch = auto
 	ui = auto
 [core]
+  editor = vim
 	excludesfile = ~/.gitignore
 	autocrlf = input
 	quotepath = off
