@@ -1,0 +1,24 @@
+RED="\[\033[0;31m\]"
+GREEN="\[\033[0;32m\]"
+COLOR_NONE="\[\e[0m\]"
+
+function parse_git_branch {
+
+  git rev-parse --git-dir &> /dev/null
+  git_status="$(git status 2> /dev/null)"
+  branch_pattern="^On branch ([^${IFS}]*)"
+  if [[ ! ${git_status} =~ "working directory clean" ]]; then
+    state="${RED}"
+  fi
+  if [[ ${git_status} =~ ${branch_pattern} ]]; then
+    branch=${BASH_REMATCH[1]}
+    echo " ${state}(${branch})"
+  fi
+}
+
+function prompt_func() {
+    previous_return_value=$?;
+    PS1="${TITLEBAR}\w${GREEN}$(parse_git_branch)${COLOR_NONE}$ "
+}
+
+PROMPT_COMMAND=prompt_func

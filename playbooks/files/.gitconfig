@@ -1,3 +1,6 @@
+[user]
+  name  = mdodsworth
+  email = dodster.michael@gmail.com
 [alias]
 	uncommit   = reset --soft HEAD^
 	unstage    = reset HEAD

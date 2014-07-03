@@ -1,2 +1,2 @@
 osx:
-	ansible-playbook -v -D -i playbooks/inventory playbooks/main.yml
+	ansible-playbook -v -D -i hosts playbooks/main.yml 
