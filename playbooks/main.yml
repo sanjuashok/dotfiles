@@ -1,5 +1,6 @@
 - hosts: all
   tasks:
-    - include: tasks/homebrew.yml
     - include: tasks/dotfiles.yml
+    - include: tasks/homebrew.yml
+    - include: tasks/intellij.yml
     - include: tasks/vim.yml
