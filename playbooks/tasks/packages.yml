@@ -50,3 +50,9 @@
     - spotify
     - vagrant
     - virtualbox
+
+- name: Install NPM packages
+  npm: name={{ item }} state=latest global=yes
+  with_items:
+    - coffee-script
+    - yo
