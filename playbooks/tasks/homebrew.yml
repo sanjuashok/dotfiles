@@ -24,6 +24,7 @@
     - go
     - mariadb
     - maven
+    - node
     - openssh
     - packer
     - phantomjs
