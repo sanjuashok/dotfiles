@@ -30,6 +30,7 @@
     - phantomjs
     - postgresql
     - protobuf
+    - ruby
     - scala
     - tree
     - vagrant-completion
@@ -56,3 +57,8 @@
   with_items:
     - coffee-script
     - yo
+
+- name: Install gem packages
+  gem: name={{ item }} state=latest user_install=no
+  with_items:
+    - compass
