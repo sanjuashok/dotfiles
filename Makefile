@@ -1,2 +1,2 @@
 init:
-	ansible-playbook -v -D -i hosts playbooks/main.yml 
+	ansible-playbook -K -v -D -i hosts playbooks/main.yml 

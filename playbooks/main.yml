@@ -4,3 +4,6 @@
     - include: tasks/packages.yml
     - include: tasks/intellij.yml
     - include: tasks/vim.yml
+    - include: tasks/shell.yml
+      vars:
+        username: mdodsworth

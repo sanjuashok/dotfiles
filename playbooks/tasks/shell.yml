@@ -1,0 +1,8 @@
+---
+- name: add the version of bash installed by homebrew
+  lineinfile: dest=/etc/shells regexp=^/usr/local/bin/bash line=/usr/local/bin/bash
+  sudo: yes
+
+- name: switch the version of bash installed by homebrew
+  shell: chsh -s /usr/bin/local/bash {{ username }}
+  sudo: yes
