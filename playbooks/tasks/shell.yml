@@ -4,5 +4,5 @@
   sudo: yes
 
 - name: switch the version of bash installed by homebrew
-  shell: chsh -s /usr/bin/local/bash {{ username }}
+  shell: chsh -s /usr/local/bin/bash {{ username }}
   sudo: yes
