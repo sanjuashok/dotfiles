@@ -13,6 +13,16 @@
     <keyboard-shortcut first-keystroke="control V" />
     <keyboard-shortcut first-keystroke="meta V" />
   </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift control Z" />
+    <keyboard-shortcut first-keystroke="shift alt BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="shift meta Z" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="control Z" />
+    <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="meta Z" />
+  </action>
   <action id="ActivateChangesToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
@@ -66,6 +76,12 @@
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta V" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift meta Z" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="meta Z" />
   </action>
   <action id="EditorChooseLookupItemAlways" />
   <action id="EditorChooseLookupItemCompleteStatement" />
@@ -130,8 +146,8 @@
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="control alt B" />
-    <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="control DOWN" />
+    <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="control UP" />
