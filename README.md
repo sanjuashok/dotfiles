@@ -4,6 +4,7 @@
 
 - install Homebrew `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
 - install ansible `brew install ansible`
+- install git `brew install git`
 
 ```
 cd ~
