@@ -44,6 +44,7 @@
   with_items:
     - adium
     - alfred
+    - colloquy
     - dash
     - dropbox
     - evernote

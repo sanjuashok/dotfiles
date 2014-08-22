@@ -2,7 +2,8 @@
   tasks:
     - include: tasks/dotfiles.yml
     - include: tasks/packages.yml
-    - include: tasks/intellij.yml
+    - include: tasks/intellij13.yml
+    - include: tasks/intellij14.yml
     - include: tasks/vim.yml
     - include: tasks/shell.yml
       vars:

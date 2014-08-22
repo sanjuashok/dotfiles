@@ -1,0 +1,9 @@
+---
+- name: Synchronize Intellij 14 preferences
+  synchronize: src=files/intellij/config/ dest=~/Library/Preferences/IntelliJIdea14/
+
+- name: Copy Intellij 14 idea.vmoptions
+  synchronize: 
+    src: files/intellij/idea.vmoptions 
+    dest: ~/Applications/IntelliJ IDEA 14 EAP.app/Contents/bin/idea.vmoptions
+
