@@ -6,6 +6,7 @@
     - homebrew/completions
     - homebrew/dupes
     - phinze/cask
+    - mdodsworth/local
 
 - name: Update and upgrade Homebrew
   shell: brew update && brew upgrade && brew cleanup
@@ -47,6 +48,7 @@
     - dropbox
     - evernote
     - intellij-idea
+    - intellij-idea-eap
     - java
     - macvim
     - spotify
