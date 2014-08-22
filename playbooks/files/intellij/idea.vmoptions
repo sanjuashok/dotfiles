@@ -1,0 +1,16 @@
+-Xms6000m
+-Xmx6000m
+-XX:+PrintGCDetails
+-XX:+PrintGCTimeStamps
+-XX:+UseNUMA
+-XX:NewRatio=1
+-XX:SurvivorRatio=4
+-XX:+UseConcMarkSweepGC
+-XX:+CMSClassUnloadingEnabled
+-Xverify:none
+-XX:+OptimizeStringConcat
+-Dawt.useSystemAAFontSettings=lcd
+-XX:+UseCompressedOops
+-XX:+UseTLAB
+-XX:+UseFastAccessorMethods
+-ea
