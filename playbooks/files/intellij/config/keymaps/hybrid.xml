@@ -144,10 +144,13 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="F1" />
   </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="control B" />
+    <mouse-shortcut keystroke="meta button1" />
+  </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="control alt B" />
     <keyboard-shortcut first-keystroke="control DOWN" />
-    <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="control UP" />
