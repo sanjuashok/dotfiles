@@ -15,7 +15,10 @@
   <template name="fix" value="FIXME - mdodsworth:" description="Adds a fixme for myself" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="false" />
-      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="true" />
       <option name="GROOVY" value="false" />
       <option name="GROOVY_STATEMENT" value="true" />
       <option name="GROOVY_DECLARATION" value="false" />
