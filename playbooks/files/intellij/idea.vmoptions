@@ -1,5 +1,5 @@
--Xms6000m
--Xmx6000m
+-Xms768m
+-Xmx1500m
 -XX:+PrintGCDetails
 -XX:+PrintGCTimeStamps
 -XX:+UseNUMA
