@@ -1,6 +1,6 @@
 [user]
-  name  = mdodsworth
-  email = dodster.michael@gmail.com
+  name  = {{ ansible_env['USER'] }}
+  email = {{ ansible_env['USER'] }}@salesforce.com
 [alias]
 	uncommit   = reset --soft HEAD^
 	unstage    = reset HEAD

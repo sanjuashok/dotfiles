@@ -1,3 +1,6 @@
 ---
 - name: Synchronize dotfiles
   synchronize: src=files/home/ dest=~
+
+- name: Create .gitconfig
+  template: src=templates/home/.gitconfig dest=~
