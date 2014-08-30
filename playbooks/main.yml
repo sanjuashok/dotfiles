@@ -6,5 +6,3 @@
     - include: tasks/intellij14.yml
     - include: tasks/vim.yml
     - include: tasks/shell.yml
-      vars:
-        username: mdodsworth
