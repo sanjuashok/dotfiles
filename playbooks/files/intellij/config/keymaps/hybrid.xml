@@ -151,6 +151,7 @@
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="control B" />
     <mouse-shortcut keystroke="meta button1" />
+    <keyboard-shortcut first-keystroke="meta B" />
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="control alt B" />
