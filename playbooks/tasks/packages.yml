@@ -15,6 +15,7 @@
   homebrew: name={{ item }} state=latest
   with_items:
     - ack
+    - ant
     - apache-spark
     - awscli
     - bash
