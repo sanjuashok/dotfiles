@@ -25,6 +25,7 @@
     - gist
     - git
     - go
+    - gradle
     - mariadb
     - maven
     - node
