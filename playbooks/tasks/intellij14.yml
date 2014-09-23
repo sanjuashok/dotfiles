@@ -7,9 +7,9 @@
     src: files/intellij/idea.vmoptions 
     dest: ~/Applications/IntelliJ IDEA 14 EAP.app/Contents/bin/idea.vmoptions
 
-- name: Update Info.plist to run Intellij using java 1.7
+- name: Update Info.plist to run Intellij using java 1.8
   replace:
     dest: ~/Applications/IntelliJ IDEA 14 EAP.app/Contents/Info.plist
     regexp: '1.6\*'
-    replace: '1.7*'
+    replace: '1.8*'
     backup: true
