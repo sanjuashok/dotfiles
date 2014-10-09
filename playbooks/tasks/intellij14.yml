@@ -13,3 +13,6 @@
     regexp: '1.6\*'
     replace: '1.8*'
     backup: true
+
+- name: Create a link for .ideavimrc
+  file: src=~/.vim/.vimrc dest=~/.ideavimrc state=link
