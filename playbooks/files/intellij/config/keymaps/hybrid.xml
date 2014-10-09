@@ -46,6 +46,12 @@
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
   <action id="CheckinProject" />
+  <action id="CompareDirs">
+    <keyboard-shortcut first-keystroke="meta D" />
+  </action>
+  <action id="CompareTwoFiles">
+    <keyboard-shortcut first-keystroke="meta D" />
+  </action>
   <action id="Console.History.Next" />
   <action id="Console.History.Previous" />
   <action id="Console.Jdbc.Execute" />
@@ -97,6 +103,9 @@
     <keyboard-shortcut first-keystroke="DOWN" />
     <keyboard-shortcut first-keystroke="control J" />
   </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="meta D" />
+  </action>
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorNextWord">
@@ -118,6 +127,9 @@
   <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="meta W" />
+  </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="UP" />
     <keyboard-shortcut first-keystroke="control K" />
@@ -125,7 +137,7 @@
   <action id="EnablePugin" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="control F12" />
-    <keyboard-shortcut first-keystroke="control U" />
+    <keyboard-shortcut first-keystroke="meta U" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="control F" />
@@ -148,10 +160,16 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="F1" />
   </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta N" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="control B" />
     <mouse-shortcut keystroke="meta button1" />
     <keyboard-shortcut first-keystroke="meta B" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta N" />
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="control alt B" />
@@ -159,6 +177,9 @@
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="control UP" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift control meta N" />
   </action>
   <action id="HighlightUsagesInFile" />
   <action id="HippieBackwardCompletion">
@@ -249,6 +270,9 @@
   </action>
   <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="shift control meta V" />
+  </action>
   <action id="WebOpenInAction" />
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
