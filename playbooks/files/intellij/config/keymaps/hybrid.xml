@@ -135,6 +135,9 @@
     <keyboard-shortcut first-keystroke="control K" />
   </action>
   <action id="EnablePugin" />
+  <action id="FileChooser.TogglePathShowing">
+    <keyboard-shortcut first-keystroke="meta P" />
+  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="control F12" />
     <keyboard-shortcut first-keystroke="meta U" />
@@ -214,6 +217,9 @@
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="control O" />
     <keyboard-shortcut first-keystroke="shift control O" />
+  </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="meta P" />
   </action>
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="shift F7" />
