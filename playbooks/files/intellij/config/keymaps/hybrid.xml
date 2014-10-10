@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="Hybrid" parent="$default">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="control C" />
@@ -177,9 +176,11 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="control alt B" />
     <keyboard-shortcut first-keystroke="control DOWN" />
+    <keyboard-shortcut first-keystroke="shift meta J" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="control UP" />
+    <keyboard-shortcut first-keystroke="shift meta K" />
   </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift control meta N" />
@@ -208,14 +209,17 @@
   <action id="MethodHierarchy.ImplementMethodAction">
     <keyboard-shortcut first-keystroke="shift control I" />
   </action>
-  <action id="MoveLineDown" />
-  <action id="MoveLineUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift meta DOWN" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift meta UP" />
+  </action>
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="F7" />
     <keyboard-shortcut first-keystroke="control alt DOWN" />
   </action>
   <action id="OverrideMethods">
-    <keyboard-shortcut first-keystroke="control O" />
     <keyboard-shortcut first-keystroke="shift control O" />
   </action>
   <action id="ParameterInfo">
@@ -284,4 +288,3 @@
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
 </keymap>
-
