@@ -25,10 +25,10 @@
     - gist
     - git
     - go
+    - gradle
     - mariadb
     - maven
     - node
-    - openssh
     - packer
     - phantomjs
     - postgresql
@@ -39,6 +39,9 @@
     - vagrant-completion
     - vim
     - wget
+
+- name: Install openssh with Homebrew
+  homebrew: name=openssh state=latest install_options=with-keychain-support
 
 - name: Install applications with Homebrew-cask
   homebrew_cask: name={{ item }} state=installed
