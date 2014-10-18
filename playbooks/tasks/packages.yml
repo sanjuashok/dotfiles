@@ -26,6 +26,7 @@
     - git
     - go
     - gradle
+    - hbase
     - mariadb
     - maven
     - node
