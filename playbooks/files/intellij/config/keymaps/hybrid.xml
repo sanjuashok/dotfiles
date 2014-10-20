@@ -219,6 +219,11 @@
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="F7" />
     <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="control J" />
+  </action>
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="control J" />
   </action>
   <action id="OverrideMethods">
     <keyboard-shortcut first-keystroke="shift control O" />
@@ -229,6 +234,11 @@
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="shift F7" />
     <keyboard-shortcut first-keystroke="control alt UP" />
+    <keyboard-shortcut first-keystroke="control K" />
+  </action>
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+    <keyboard-shortcut first-keystroke="control K" />
   </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="shift control Q" />
@@ -263,6 +273,7 @@
   </action>
   <action id="SwitchDown">
     <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="control J" />
   </action>
   <action id="SwitchLeft">
     <keyboard-shortcut first-keystroke="control alt LEFT" />
@@ -272,6 +283,7 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="control alt UP" />
+    <keyboard-shortcut first-keystroke="control K" />
   </action>
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="control NUMPAD0" />
