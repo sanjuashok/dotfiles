@@ -10,6 +10,8 @@
 
 - name: Update and upgrade Homebrew
   shell: brew update && brew upgrade && brew cleanup
+  register: brew_result
+  changed_when: "brew_result.stdout != 'Already up-to-date.'"
 
 - name: Install libraries with Homebrew
   homebrew: name={{ item }} state=latest
@@ -26,6 +28,7 @@
     - git
     - go
     - gradle
+    - hbase
     - mariadb
     - maven
     - node
