@@ -33,7 +33,6 @@
     - maven
     - node
     - packer
-    - phantomjs
     - postgresql
     - protobuf
     - ruby
