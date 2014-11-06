@@ -3,8 +3,8 @@
 -XX:+PrintGCDetails
 -XX:+PrintGCTimeStamps
 -XX:+UseNUMA
--XX:NewSize=4000m
--XX:SurvivorRatio=6
+-XX:NewSize=5000m
+-XX:SurvivorRatio=8
 -XX:+UseConcMarkSweepGC
 -XX:+CMSClassUnloadingEnabled
 -Xverify:none
