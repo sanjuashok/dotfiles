@@ -29,6 +29,7 @@
     - go
     - gradle
     - hbase
+    - leiningen
     - mariadb
     - maven
     - node
