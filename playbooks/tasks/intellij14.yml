@@ -5,11 +5,11 @@
 - name: Copy Intellij 14 idea.vmoptions
   synchronize: 
     src: files/intellij/idea.vmoptions 
-    dest: ~/Applications/IntelliJ IDEA 14 EAP.app/Contents/bin/idea.vmoptions
+    dest: ~/Applications/IntelliJ IDEA 14.app/Contents/bin/idea.vmoptions
 
 - name: Update Info.plist to run Intellij using java 1.8
   replace:
-    dest: ~/Applications/IntelliJ IDEA 14 EAP.app/Contents/Info.plist
+    dest: ~/Applications/IntelliJ IDEA 14.app/Contents/Info.plist
     regexp: '1.6\*'
     replace: '1.8*'
     backup: true
