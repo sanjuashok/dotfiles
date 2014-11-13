@@ -8,7 +8,9 @@
   cob = checkout -b
   contributors = !git log --format='%aN%n%cN' | sort | uniq
   contributors-email = !git log --format='%aN <%ae>%n%cN <%ce>' | sort | uniq
-  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  fl = log -u
+  ll = log --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --decorate --numstat
+  ls = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   pending = diff --cached
   timeline = log --oneline --graph --decorate
   uncommit = reset --soft HEAD^
