@@ -1,8 +1,0 @@
----
-- name: Synchronize Intellij 13 preferences
-  synchronize: src=files/intellij/config/ dest=~/Library/Preferences/IntelliJIdea13/
-
-- name: Copy Intellij 13 idea.vmoptions
-  synchronize: 
-    src: files/intellij/idea.vmoptions 
-    dest: ~/Applications/IntelliJ IDEA 13.app/Contents/bin/idea.vmoptions
