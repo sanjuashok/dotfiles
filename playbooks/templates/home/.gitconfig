@@ -2,14 +2,20 @@
   name  = {{ ansible_env['USER'] }}
   email = dodster.michael@gmail.com
 [alias]
-	uncommit   = reset --soft HEAD^
-	unstage    = reset HEAD
-	pending    = diff --cached
-	age        = !echo "First commit:" && git log --reverse --pretty=format:'\t\t%ar' | head -n 1 && echo 'Last commit:' && git log --pretty=format:'\t\t%ar' | head -n 1
-	contributors     = !git log --format='%aN%n%cN' | sort | uniq
-	contributors-email = !git log --format='%aN <%ae>%n%cN <%ce>' | sort | uniq
-	timeline = log --oneline --graph --decorate
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  age = !echo "First commit:" && git log --reverse --pretty=format:'\t\t%ar' | head -n 1 && echo 'Last commit:' && git log --pretty=format:'\t\t%ar' | head -n 1
+  amend = commit -a --amend
+  co = checkout
+  cob = checkout -b
+  contributors = !git log --format='%aN%n%cN' | sort | uniq
+  contributors-email = !git log --format='%aN <%ae>%n%cN <%ce>' | sort | uniq
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  pending = diff --cached
+  timeline = log --oneline --graph --decorate
+  uncommit = reset --soft HEAD^
+  undo = undo = reset HEAD~1 --mixed
+  unstage = reset HEAD
+  up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+  wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
 [color]
 	diff = auto
 	status = auto
