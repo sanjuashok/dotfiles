@@ -31,6 +31,7 @@
     - leiningen
     - mariadb
     - maven
+    - mesos
     - node
     - packer
     - postgresql
