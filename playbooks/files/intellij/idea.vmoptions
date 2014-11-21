@@ -1,9 +1,9 @@
--Xms1200m
--Xmx1200m
+-Xms7000m
+-Xmx7000m
 -XX:+PrintGCDetails
 -XX:+PrintGCTimeStamps
 -XX:+UseNUMA
--XX:NewSize=800m
+-XX:NewSize=5000m
 -XX:SurvivorRatio=6
 -XX:+UseConcMarkSweepGC
 -XX:+CMSClassUnloadingEnabled
