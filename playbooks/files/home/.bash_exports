@@ -1,7 +1,5 @@
 export JAVA_HOME=`/usr/libexec/java_home`
-export GROOVY_HOME=/usr/local/Cellar/groovy/2.2.2/libexec
-export GOPATH=$HOME/dev/go
-export PATH=~/bin:/usr/local/bin:/usr/local/share/npm/bin:$PATH:$GOPATH/bin
+export PATH=~/bin:/usr/local/bin:/usr/local/share/npm/bin
 export ANSIBLE_HOSTS=~/.ansible_hosts
 export EDITOR="vim"
 export CLICOLOR=1

@@ -1,6 +1,6 @@
 [user]
   name  = {{ ansible_env['USER'] }}
-  email = dodster.michael@gmail.com
+  email = srinivas.ashok@live.com
 [alias]
   age = !echo "First commit:" && git log --reverse --pretty=format:'\t\t%ar' | head -n 1 && echo 'Last commit:' && git log --pretty=format:'\t\t%ar' | head -n 1
   amend = commit -a --amend
