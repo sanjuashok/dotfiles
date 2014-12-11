@@ -41,7 +41,6 @@
   homebrew_cask: name={{ item }} state=installed
   with_items:
     - adium
-    - colloquy
     - dropbox
     - evernote
     - java
@@ -50,7 +49,7 @@
     - vagrant
     - virtualbox
     - google-chrome
-    - f-lux
+    - flux
     - firefox
     - vlc
     - sublime-text
