@@ -24,3 +24,7 @@ msg: github.com has an unknown hostkey. Set accept_hostkey to True or manually a
 FATAL: all hosts have already failed -- aborting
 
 ```
+
+### TODO
+
+- Research how to include npm install options. Currently express doesn't work because you need to install it with `npm install express --save` (i.e. the save option is required for the install not to be temporary).
