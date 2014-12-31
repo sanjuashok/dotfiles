@@ -60,4 +60,6 @@
     - coffee-script
     - less
     - express
+    - jade
+    
 
