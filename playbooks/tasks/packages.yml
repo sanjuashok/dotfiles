@@ -59,7 +59,9 @@
   with_items:
     - coffee-script
     - less
-    - express
-    - jade
-    
+    - express 
+    - connect
+    - body-parser
+    - jade 
+    - socket.io
 
