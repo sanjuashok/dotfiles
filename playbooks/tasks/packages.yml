@@ -60,9 +60,10 @@
   with_items:
     - coffee-script
     - less
-    - express 
+    - express
     - connect
     - body-parser
-    - jade 
+    - jade
     - socket.io
-
+    - express-generator
+  
