@@ -53,6 +53,7 @@
     - firefox
     - vlc
     - sublime-text
+    - atom
 
 - name: Install NPM packages
   npm: name={{ item }} state=latest global=yes
