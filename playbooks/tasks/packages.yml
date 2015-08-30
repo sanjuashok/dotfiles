@@ -33,6 +33,7 @@
     - vagrant-completion
     - vim
     - wget
+    - mongodb
 
 - name: Install openssh with Homebrew
   homebrew: name=openssh state=latest install_options=with-keychain-support
@@ -66,4 +67,3 @@
     - jade
     - socket.io
     - express-generator
-  

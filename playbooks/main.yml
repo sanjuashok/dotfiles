@@ -2,5 +2,4 @@
   tasks:
     - include: tasks/dotfiles.yml
     - include: tasks/packages.yml
-    - include: tasks/vim.yml
     - include: tasks/shell.yml

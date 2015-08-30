@@ -1,7 +1,0 @@
----
-- name: Install VIM config
-  git: repo=git@github.com:mdodsworth/.vim.git dest=~/.vim
-- name: Create a link for .vimrc
-  file: src=~/.vim/.vimrc dest=~/.vimrc state=link
-- name: Create a link for .ideavimrc
-  file: src=~/.vim/.ideavimrc dest=~/.ideavimrc state=link
