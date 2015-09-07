@@ -55,6 +55,7 @@
     - vlc
     - sublime-text
     - atom
+    - slack
 
 - name: Install NPM packages
   npm: name={{ item }} state=latest global=yes
@@ -67,3 +68,4 @@
     - jade
     - socket.io
     - express-generator
+    - mongodb
