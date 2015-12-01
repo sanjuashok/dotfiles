@@ -70,3 +70,5 @@
     - socket.io
     - express-generator
     - mongodb
+    - react
+    - react-dom
