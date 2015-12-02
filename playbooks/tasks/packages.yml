@@ -72,3 +72,5 @@
     - mongodb
     - react
     - react-dom
+    - trash
+    - trash-cli
