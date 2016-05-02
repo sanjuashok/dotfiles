@@ -27,4 +27,5 @@ FATAL: all hosts have already failed -- aborting
 
 ### TODO
 
+- Convert all the bash* dotfiles to zsh.
 - Research how to include npm install options. Currently express doesn't work because you need to install it with `npm install express --save` (i.e. the save option is required for the install not to be temporary).
